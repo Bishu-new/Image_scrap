@@ -2,11 +2,14 @@ from flask import Flask, render_template, request,jsonify
 from flask_cors import CORS,cross_origin
 import requests
 from bs4 import BeautifulSoup
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
 from urllib.request import urlopen as uReq
 import logging
-import pymongo
 logging.basicConfig(filename="scrapper.log" , level=logging.INFO)
 import os
+
+
 
 app = Flask(__name__)
 
@@ -58,20 +61,30 @@ def index():
                                 img_data.append(mydict)
                                 with open(os.path.join(save_directory, f"{query}_{image_tags.index(image_tag)}.jpg"), "wb") as f:
                                     f.write(image_data)
-                    client = pymongo.MongoClient("mongodb+srv://snshrivas:Snshrivas@cluster0.ln0bt5m.mongodb.net/?retryWrites=true&w=majority")
-                    db = client['image_scrap']
-                    review_col = db['image_scrap_data']
-                    review_col.insert_many(img_data)          
+                    uri = "mongodb+srv://Pytonlearning:Bishu1994@cluster0.ozde5yd.mongodb.net/?retryWrites=true&w=majority"
+# Create a new client and connect to the server
+                    client = MongoClient(uri)
+                    db = client['image_scrap1']
+                    review_col = db['image_scrap_data1']
+                    review_col.insert_many(img_data)
+                              
 
                     return "image laoded"
                 except Exception as e:
                     logging.info(e)
                     return 'something is wrong'
             # return render_template('results.html')
+ 
+        
+                dns.resolver.default_resolver=dns.resolver.Resolver(configure=False)
+                dns.resolver.default_resolver.nameservers=['8.8.8.8']
 
     else:
         return render_template('index.html')
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8000)
+    app.run(host='127.0.0.1', port=8000, debug=True)
+    	#app.run(debug=True)
+
+

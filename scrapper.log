@@ -42,3 +42,142 @@ INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET /static/css/main.css H
 INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "GET /static/css/style.css HTTP/1.1" 200 -
 INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.20.10.9 - - [22/Feb/2023 11:24:16] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.191.163:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 14:46:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 14:46:16] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 14:46:16] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 14:46:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 14:46:50] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.191.163:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 14:53:25] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.191.163:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 15:13:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 15:13:18] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 15:13:18] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 15:13:48] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.191.163:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 15:17:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 15:17:51] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 15:17:51] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:192.168.191.163 - - [22/Sep/2023 15:18:20] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.214:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:23:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:23:07] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:23:07] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:23:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:23:44] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.214:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:28:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:28:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:28:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:28:39] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.214:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:32:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:32:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:32:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:32:37] "POST /review HTTP/1.1" 200 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:33:45] "POST /review HTTP/1.1" 200 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:192.168.29.214 - - [22/Sep/2023 15:35:56] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 308-672-938
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 15:41:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 15:41:54] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 15:41:54] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 15:42:46] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 308-672-938
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 15:53:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 15:53:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 15:53:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 15:54:22] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 308-672-938
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 15:58:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 15:58:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 15:58:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 15:59:08] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 308-672-938
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 16:23:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 16:23:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 16:23:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 16:23:45] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 308-672-938
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 18:07:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 18:07:18] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 18:07:18] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 18:07:46] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 308-672-938
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 18:50:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 18:50:42] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 18:50:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:All nameservers failed to answer the query _mongodb._tcp.cluster0.ozde5yd.mongodb.net. IN SRV: 
+INFO:werkzeug:127.0.0.1 - - [22/Sep/2023 18:51:10] "POST /review HTTP/1.1" 200 -
